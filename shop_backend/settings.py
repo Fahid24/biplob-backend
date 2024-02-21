@@ -77,22 +77,22 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'shop_backend.wsgi.application'
 
-DEBUG = False
-# Database
-# https://docs.djangoproject.com/en/5.0/ref/settings/#databases
+# DEBUG = False
+# # Database
+# # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'railway',
-        'USER': 'postgres',
-        'PASSWORD': 'Cab3gfcC26-2Dc-Ba*2Gc33A1fb*Gfef',
-        'HOST': 'monorail.proxy.rlwy.net',
-        'PORT': '42022',
-    }
-}
-STATICFILES_DIRS = os.path.join(BASE_DIR, 'static'),
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'static')
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'railway',
+#         'USER': 'postgres',
+#         'PASSWORD': 'Cab3gfcC26-2Dc-Ba*2Gc33A1fb*Gfef',
+#         'HOST': 'monorail.proxy.rlwy.net',
+#         'PORT': '42022',
+#     }
+# }
+# STATICFILES_DIRS = os.path.join(BASE_DIR, 'static'),
+# STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'static')
 MEDIA_URL = '/media/'
 # MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # Password validation
